@@ -70,7 +70,9 @@
     left: 0;
 
 }
+
 /* first section */
+
 .section1{
     margin-top: 40px;
 }
@@ -222,3 +224,71 @@
     font-size: 0.8rem;
 }
 
+/* seconde section */
+.section2{
+    background-color: #F2F2F2;
+    padding-bottom: 35px;
+}
+.section2 .popular{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 35px 0 25px 25px; 
+    padding-top: 35px;
+
+}
+.section2 .popular h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.section2 .popular i{
+    font-size: 1.4rem;
+}
+.section2 .card{
+    height: 120px;
+    background-color: #FFF;
+    border-radius: 20px;
+    margin:0 25px 10px 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px 1px;
+    position: relative;
+}
+.section2 .card img{
+    height: 100% ;
+    width: 42%;
+    border-radius: 20px 0 0 20px;
+    padding: 5px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section2 .card .card-content{
+    height: 100% ;
+    width: 58%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.section2 .card .card-content h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 80%;
+    margin: 10px 0 10px 10px;
+}
+.section2 .card .card-content p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin: 0 0 0 10px;
+}
+.section2 .card .card-content .stars{
+    font-size: 0.6rem;
+    margin: 25px 0 0 10px;
+    color: #0065FC;
+}
+.section2 .seconde_card .star5 , .section2 .third_card .star5{
+    color: #F2F2F2;
+}
