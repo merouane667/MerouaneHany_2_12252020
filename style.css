@@ -774,7 +774,7 @@ header .signup {
     }
 
     .footer div {
-        margin: 0 40px 0 0;
+        width: 440px;
     }
 
 }
@@ -1104,13 +1104,11 @@ header .signup {
     .footer {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        padding-left: 46px;
+        justify-content: space-between;
+        padding: 60px 520px 60px 80px;
         margin-top: 40px;
 
     }
 
-    .footer div {
-        margin: 0px 300px 0 10px;
-    }
+    
 }
