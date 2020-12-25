@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -209,6 +210,7 @@ header .signup {
     position: relative;
     transition: all 0.5s ease-in-out;
 }
+
 .filtres a:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px -2px #0006;
@@ -514,43 +516,52 @@ header .signup {
 .section4 .card {
     overflow: hidden;
 }
-.section4 .card h3{
+
+.section4 .card h3 {
     transition: color .5s ease;
 }
 
-.section4 a:hover h3{
+.section4 a:hover h3 {
     color: #0065FC;
 }
 
 .section3 .card {
     overflow: hidden;
 }
-.section3 .card .card-content h3{
+
+.section3 .card .card-content h3 {
     transition: color .5s ease;
 }
-.section3 .card img{
+
+.section3 .card img {
     transition: transform .5s ease;
 }
-.section3 a:hover img{
+
+.section3 a:hover img {
     transform: scale(1.068);
 }
-.section3 a:hover .card-content h3{
+
+.section3 a:hover .card-content h3 {
     color: #0065FC;
 }
 
 .section2 .card {
     overflow: hidden;
 }
-.section2 .card .card-content h3{
+
+.section2 .card .card-content h3 {
     transition: color .5s ease;
 }
-.section2 .card img{
+
+.section2 .card img {
     transition: transform .5s ease;
 }
-.section2 a:hover img{
+
+.section2 a:hover img {
     transform: scale(1.1);
 }
-.section2 a:hover .card-content h3{
+
+.section2 a:hover .card-content h3 {
     color: #0065FC;
 }
 
@@ -633,10 +644,10 @@ header .signup {
         margin: 0;
     }
 
-    .section3 .card .card-content h3{
+    .section3 .card .card-content h3 {
         font-size: 0.8rem;
     }
-    
+
     .section3>h2 {
         grid-column: 1/4;
         grid-row: 1/2;
@@ -806,13 +817,14 @@ header .signup {
         margin-top: 40px;
     }
 
-    header .signup .signup_link{
-      margin: 9px 92px 0px 0px;  
+    header .signup .signup_link {
+        margin: 9px 92px 0px 0px;
     }
-    
 
 
-    header , .section1{
+
+    header,
+    .section1 {
         margin: 0px 55px;
 
     }
@@ -900,8 +912,10 @@ header .signup {
         margin: 35px 0 54px 28px;
 
     }
-    .section2 .card .card-content{
-        padding-left: 15px;
+
+    .section2 .card .card-content {
+        padding-left: 8px;
+
     }
 
     .section2 .card .card-content h3 {
@@ -920,7 +934,7 @@ header .signup {
         margin: 35% 0 0 1px;
     }
 
-    .section2 .seconde_card .card-content .stars{
+    .section2 .seconde_card .card-content .stars {
         margin: 27% 0 0 1px;
     }
 
@@ -943,10 +957,11 @@ header .signup {
         height: 240px;
 
     }
-    .section3 .card .card-content h3{
-       margin: 2px 0 5px 15px; 
+
+    .section3 .card .card-content h3 {
+        margin: 2px 0 5px 15px;
     }
-    
+
 
     .section3>h2 {
         grid-column: 1/4;
@@ -990,19 +1005,20 @@ header .signup {
         grid-row: 4/5;
         width: 100%;
     }
-    .section3 .card .card-content .stars{
-      margin: 17px 0 0 15px;  
+
+    .section3 .card .card-content .stars {
+        margin: 17px 0 0 15px;
     }
 
     /* fourth section */
-    .section4{
-        margin: 0px 80px; 
+    .section4 {
+        margin: 0px 80px;
     }
 
-    .section4 h2{
+    .section4 h2 {
         margin: 40px 0px 40px 25px;
     }
-    
+
 
 
     .section4 .cards {
