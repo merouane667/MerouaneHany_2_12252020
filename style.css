@@ -166,7 +166,7 @@ header .signup {
     cursor: pointer;
 }
 
-.section1 .input .icon2 p {
+.section1 .input .icon2 .para {
     display: none;
 }
 
@@ -586,7 +586,7 @@ header .signup {
         border-radius: 0 15px 15px 0;
     }
 
-    .section1 .input .icon2 p {
+    .section1 .input .icon2 .para {
         display: block;
         color: #FFF;
         font-size: 1.2rem;
@@ -867,7 +867,7 @@ header .signup {
         border-radius: 0 15px 15px 0;
     }
 
-    .section1 .input .icon2 p {
+    .section1 .input .icon2 .para {
         display: block;
         color: #FFF;
         font-size: 1.2rem;
@@ -1105,7 +1105,7 @@ header .signup {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 60px 520px 60px 80px;
+        padding: 60px 5px 60px 80px;
         margin-top: 40px;
 
     }
